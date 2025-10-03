@@ -1,5 +1,5 @@
 This firmware is for the halot mage PRO. It is modded to include more features such as:
-Root access, SSH, SCT file trasnfer, Drag and drop - Windows file explorer network transfers.
+Root access, SSH, SCT file transfer, Drag and drop - Windows file explorer network transfers.
 
 This firmware version is only for English as space had to be saved via font modification.
 
