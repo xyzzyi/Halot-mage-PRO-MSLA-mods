@@ -1,0 +1,16 @@
+Enable insecure guest and disable SMB signing (easiest on a private network)
+
+Press Win + R, type gpedit.msc, and hit Enter.
+
+Navigate to:Computer Configuration → Administrative Templates → Network → Lanman Workstation
+
+
+Enable “Enable insecure guest logons”.
+
+Optionally, disable SMB signing requirement:Computer Configuration → Windows Settings → Security Settings → Local Policies → Security Options
+
+Find Microsoft network client: Digitally sign communications (always) → set to Disabled
+
+Find Microsoft network client: Digitally sign communications (if server agrees) → set to Enabled
+
+Reboot Windows.
